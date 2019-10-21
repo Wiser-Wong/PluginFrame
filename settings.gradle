@@ -1,0 +1,2 @@
+include ':app', ':app.main', ':hostlibrary', ':pluginlibrary',
+        ':app.home'
