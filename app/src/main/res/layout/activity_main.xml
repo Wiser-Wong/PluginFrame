@@ -34,7 +34,7 @@
         android:background="@color/colorPrimaryDark"
         android:padding="15dp"
         android:onClick="skipHomeClick"
-        android:text="跳转Home插件"
+        android:text="跳转外置Home插件"
         android:textColor="#ffffff"
         android:textSize="30sp" />
 
@@ -46,7 +46,7 @@
         android:onClick="skipMainClick"
         android:background="@color/colorPrimaryDark"
         android:padding="15dp"
-        android:text="跳转main插件"
+        android:text="跳转内置main插件"
         android:textColor="#ffffff"
         android:textSize="30sp" />
 

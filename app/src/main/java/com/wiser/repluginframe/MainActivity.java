@@ -1,7 +1,6 @@
 package com.wiser.repluginframe;
 
 import android.Manifest;
-import android.content.ComponentName;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
@@ -11,10 +10,8 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.qihoo360.replugin.RePlugin;
 import com.qihoo360.replugin.model.PluginInfo;
@@ -96,6 +93,11 @@ public class MainActivity extends FragmentActivity {
     public void skipHomeClick(View view) {
         Intent intent = RePlugin.createIntent("home", "com.wiser.app.home.HomeActivity");
         RePlugin.startActivity(MainActivity.this, intent);
+
+//        ComponentName cn = new ComponentName("com.wiser.repluginframe","com.wiser.app.home.HomeActivity");
+//        Intent intent1 = new Intent();
+//        intent1.setComponent(cn);
+//        startActivity(intent1);
     }
 
     /**

@@ -1,2 +1,5 @@
-include ':app', ':app.main', ':hostlibrary', ':pluginlibrary',
-        ':app.home'
+include ':app'
+include ':app.home'
+//include ':app.main'
+include ':hostlibrary'
+include ':pluginlibrary'
